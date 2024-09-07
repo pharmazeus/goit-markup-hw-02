@@ -18,6 +18,7 @@ a {
 button {
     cursor: pointer;
 }
+/*---------------------------Hede--------------------*/
 .logo {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -83,7 +84,8 @@ color: #fff;
     color: #fff;
     background-color: #4d5ae5;
 }
-.order-service-btn:hover {
+.order-service-btn:hover,
+.order-service-btn:focus {
     color:#fff;
     background-color: #404bbf;
 }
