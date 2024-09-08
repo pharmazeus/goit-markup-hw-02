@@ -124,7 +124,7 @@ text-align: center;
 color: #2e2f42;
 text-transform: capitalize
 }
-.team-list {
+.team-item {
     background-color: #FFFFF
 }
 .team-names {
@@ -166,7 +166,7 @@ color: #2e2f42;
 .portfolio-item {
     background: #fff;
 }
-.portfoli-position {
+.portfolio-position {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
