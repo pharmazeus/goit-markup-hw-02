@@ -4,9 +4,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    
-
-}
+    }
 ul,
 ol {
     list-style-type: none;
@@ -40,7 +38,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2e2f42;
+color:  #434455;
 }
 .contacts {
     font-style: normal;
@@ -71,7 +69,7 @@ color:#2e2f42 ;
 .main-title {
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
@@ -114,13 +112,20 @@ color: #434455;
 /*---------------Benefits END section------*/
 
 /*---------------Team Section------*/
+.team-section {
+    background-color: #F4F4FD
+}
 .team-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize
+}
+.team-item {
+    background-color: #FFFFF
 }
 .team-names {
 font-weight: 500;
@@ -145,10 +150,11 @@ color: #434455;
 .portfolio-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 .portfolio-service-name {
 font-weight: 500;
@@ -156,6 +162,9 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+}
+.portfolio-item {
+    background: #fff;
 }
 .portfoli-position {
 font-weight: 400;
